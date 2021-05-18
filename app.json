@@ -1,0 +1,12 @@
+{
+  "name": "visages",
+  "displayName": "visages",
+  "expo": {
+    "name": "visages",
+    "slug": "visages",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
