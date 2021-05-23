@@ -1,5 +1,6 @@
 package com.visages;
 
+import com.oblador.vectoricons.VectorIconsPackage; 
 import android.app.Application;
 import android.content.Context;
 import android.net.Uri;
@@ -42,10 +43,17 @@ public class MainApplication extends Application implements ReactApplication {
       return BuildConfig.DEBUG;
     }
 
+    // @Override    
+    // public boolean canOverrideExistingModule() {        
+    //   return true;    
+    // }   
+
     @Override
     protected List<ReactPackage> getPackages() {
       List<ReactPackage> packages = new PackageList(this).getPackages();
       packages.add(new ModuleRegistryAdapter(mModuleRegistryProvider));
+        // new VectorIconsPackage()
+        
       return packages;
     }
 
